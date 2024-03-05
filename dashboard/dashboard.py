@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load data from CSV file
-bike_df = pd.read_csv("all_data.csv")
+bike_df = pd.read_csv("https://raw.githubusercontent.com/alishzapr/Bike_Rental_Analysis/main/dashboard/all_data.csv")
 
 # Data preprocessing functions
 def prepare_bike_data(df):
